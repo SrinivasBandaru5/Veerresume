@@ -1,3 +1,5 @@
+/*body conent*/
+
 body{
     padding: 100px 100px;
 }
@@ -6,7 +8,7 @@ h1, .host{
     padding:0 500px;
 }
 .availability{
-    background-image:linear-gradient(0, white, black);
+    background-image:linear-gradient(0, #A4BC92, #B3C99C);
     border-radius:6px;
     border-color:black;
     padding:3px;
@@ -15,8 +17,9 @@ h1, .host{
 .available{
     text-align: right;
 }
-header{
+fieldset{
     background-color:lavender;
+    border-radius: 20px;
 
 }
 
@@ -38,10 +41,8 @@ dt{
     color:black;
     padding:0 300px;
 }
-img{
     
 
-}
 .highlight{
     background-image:linear-gradient(0, black, grey);
     border-radius:6px;
@@ -53,3 +54,14 @@ img{
     text-align: right;
     display: block;
 }
+.column-1{
+    float:left;
+    width:50%;
+}
+.column-2{
+    float:right;
+    width:50%;
+}
+
+/*Footer*/
+
